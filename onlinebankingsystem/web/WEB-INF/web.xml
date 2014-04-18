@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+		<servlet-name>loginservlet</servlet-name>
+		<servlet-class>com.controller.Authenticate</servlet-class>
+	</servlet>
+	
+
+	<servlet-mapping>
+		<servlet-name>loginservlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+</web-app>
